@@ -46,6 +46,7 @@ static void parse_descriptor(const void *source, const char *descriptor, void *d
 	uint8_t *dp = dest;
 	char field_type;
 
+// Comment added by Tim
 	while (*descriptor) {
 		field_type = *descriptor++;
 		switch (field_type) {
